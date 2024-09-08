@@ -1,0 +1,11 @@
+header:
+  - title:      Projects
+    url:        /blog/
+  - titles:
+      en:       Archive
+      it:       Archivio
+    url:        /blog/archive.html
+  - titles:
+      en:       About
+      it:       About
+    url:        /blog/about.html

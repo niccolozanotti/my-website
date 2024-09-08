@@ -1,0 +1,75 @@
+SUBSCRIBE:
+  en:      "Subscribe"
+  it:      "Iscriviti"
+
+
+READMORE:
+  en:      "Read more"
+  it:      "Leggi di più"
+  
+
+SEARCH:
+  en:      "Search"
+  it:       "Cerca"
+
+
+CANCEL:
+  en:      "Cancel"
+  it:      "Annulla"
+  
+
+VIEWS:
+  en:      "views"
+  it:      "visualizzazioni"
+
+
+LAST_UPDATED:
+  en:      "Last updated"
+  it:      "Ultima modifica"
+  
+
+PREVIOUS:
+  en:      "PREVIOUS"
+  it:      "PRECEDENTE"
+
+
+NEXT:
+  en:      "NEXT"
+  it:       "SUCCESSIVO"
+
+ARTICLE_DATE_FORMAT:
+  en:      "%b %d, %Y"
+  it:      "%b %d, %Y"
+ 
+
+ARTICLE_LIST_DATE_FORMAT:
+  en:      "%b %d"
+  it:      "%b %d"
+
+
+STATISTICS:
+  en:      "[POST_COUNT] post articles, [PAGE_COUNT] pages."
+  it:      "[POST_COUNT] post articles, [PAGE_COUNT] pages."
+ 
+
+LICENSE_ANNOUNCE:
+  en:      "This work is licensed under a [LICENSE] license."
+  it:      "This work is licensed under a [LICENSE] license."
+ 
+
+POST_ON_GITHUB:
+  en:      "Edit on Github"
+  it:      "Modifica su Github"
+
+
+FOLLOW_ME:
+  en:      "Follow me on [NAME]."
+  it:      "Seguimi su [NAME]."
+
+
+EMAIL_ME:
+  en:      "Send me Email."
+  it:      "Inviami una Email."
+  
+
+COPYRIGHT_DATES: "2024"
