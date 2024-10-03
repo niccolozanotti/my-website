@@ -6,7 +6,7 @@ tags:
   - sea-ice
   - dynamics
   - rheology
-category: blog
+category: projects
 date: 2024-09-18 
 modify_date: 2024-09-18
 ---
