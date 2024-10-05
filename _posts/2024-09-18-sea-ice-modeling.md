@@ -8,13 +8,14 @@ tags:
   - rheology
 category: projects
 date: 2024-09-18 
-modify_date: 2024-09-18
+modify_date: 2024-10-05
 ---
 
 ## Rheology-based sea ice dynamics: From the fluid-like to the state-of-the-art solid-like brittle approach.
 
 - [Link](http://amslaurea.unibo.it/30307/)
-- [full-text](https://amslaurea.unibo.it/30307/1/BsC-thesis-zanotti-niccolo.pdf)
+- [Full-text]({{ site.url }}/assets/documents/bsc-thesis.pdf)
+- [Poster]({{ site.url }}/assets/documents/poster-annual-meeting-bologna2024.pdf)
 
 ### Abstract
 The increasing interest in the climate in general and, in particular, in the role that Arctic processes play within it
