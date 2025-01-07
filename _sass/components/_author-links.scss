@@ -32,6 +32,9 @@
       .telegram-button {
         @include clickable($text-color-1, $telegram-color);
       }
+      .bluesky-button {
+        @include clickable($bluesky-color, $text-color-1);
+      }
     }
   }
 }

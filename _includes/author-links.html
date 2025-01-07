@@ -88,5 +88,13 @@
         </a>
       </li>
     {%- endif -%}
+
+    {%- if _author.bluesky -%}
+      <li title="{{ __return | replace: '[NAME]', 'Bluesky' }}">
+        <a class="button button--circle bluesky-button" itemprop="sameAs" href="https://bsky.app/profile/{{ _author.bluesky }}.bsky.social" target="_blank">
+          <div class="icon">{%- include svg/icon/social/bluesky.svg -%}</div>
+        </a>
+      </li>
+    {%- endif -%}
   </ul>
 </div>
