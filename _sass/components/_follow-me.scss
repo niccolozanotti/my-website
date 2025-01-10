@@ -29,6 +29,9 @@
       .bluesky-button {
         @include clickable($text-color-2, $bluesky-color);
       }
+      .mastodon-button {
+        @include clickable($text-color-2, $mastodon-color);
+      }
     }
   }
 }

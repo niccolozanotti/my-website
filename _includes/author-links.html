@@ -17,38 +17,6 @@
 
     {%- include snippets/locale-to-string.html locale=site.data.locale.FOLLOW_ME -%}
 
-    {%- if _author.weibo -%}
-      <li title="{{ __return | replace: '[NAME]', 'Weibo' }}">
-        <a class="button button--circle weibo-button" itemprop="sameAs" href="https://weibo.com/{{ _author.weibo }}" target="_blank">
-          <div class="icon">{%- include svg/icon/social/weibo.svg -%}</div>
-        </a>
-      </li>
-    {%- endif -%}
-
-    {%- if _author.facebook -%}
-      <li title="{{ __return | replace: '[NAME]', 'Facebook' }}">
-        <a class="button button--circle facebook-button" itemprop="sameAs" href="https://www.facebook.com/{{ _author.facebook }}" target="_blank">
-          <div class="icon">{%- include svg/icon/social/facebook.svg -%}</div>
-        </a>
-      </li>
-    {%- endif -%}
-
-    {%- if _author.twitter -%}
-      <li title="{{ __return | replace: '[NAME]', 'Twitter' }}">
-        <a class="button button--circle twitter-button" itemprop="sameAs" href="https://x.com/{{ _author.twitter }}" target="_blank">
-          <div class="icon">{%- include svg/icon/social/twitter-x.svg -%}</div>
-        </a>
-      </li>
-    {%- endif -%}
-
-    {%- if _author.googleplus -%}
-      <li title="{{ __return | replace: '[NAME]', 'Google+' }}">
-        <a class="button button--circle googlepluse-button" itemprop="sameAs" href="https://plus.google.com/u/0/{{ _author.googleplus }}" target="_blank">
-          <div class="icon">{%- include svg/icon/social/googleplus.svg -%}</div>
-        </a>
-      </li>
-    {%- endif -%}
-
     {%- if _author.github -%}
       <li title="{{ __return | replace: '[NAME]', 'Github' }}">
         <a class="button button--circle github-button" itemprop="sameAs" href="https://github.com/{{ _author.github }}" target="_blank">
@@ -65,22 +33,29 @@
       </li>
     {%- endif -%}
 
-    {%- if _author.douban -%}
-      <li title="{{ __return | replace: '[NAME]', 'Douban' }}">
-        <a class="button button--circle douban-button" itemprop="sameAs" href="https://www.douban.com/people/{{ _author.douban }}" target="_blank">
-          <div class="icon">{%- include svg/icon/social/douban.svg -%}</div>
+    {%- if _author.bluesky -%}
+      <li title="{{ __return | replace: '[NAME]', 'Bluesky' }}">
+        <a class="button button--circle bluesky-button" itemprop="sameAs" href="https://bsky.app/profile/{{ _author.bluesky }}" target="_blank">
+          <div class="icon">{%- include svg/icon/social/bluesky.svg -%}</div>
         </a>
       </li>
     {%- endif -%}
 
-    {%- if _author.npm -%}
-      <li title="{{ __return | replace: '[NAME]', 'npm' }}">
-        <a class="button button--circle npm-button" itemprop="sameAs" href="https://www.npmjs.com/~{{ _author.npm }}" target="_blank">
-          <div class="icon">{%- include svg/icon/social/npm.svg -%}</div>
+    {%- if _author.mastodon -%}
+      <li title="{{ __return | replace: '[NAME]', 'Mastodon' }}">
+        <a rel="me" class="button button--circle mastodon-button" itemprop="sameAs" href="https://mastodon.social/@{{ _author.mastodon }}" target="_blank">
+          <div class="icon">{%- include svg/icon/social/mastodon.svg -%}</div>
         </a>
       </li>
     {%- endif -%}
 
+    {%- if _author.X -%}
+      <li title="{{ __return | replace: '[NAME]', 'X' }}">
+        <a class="button button--circle twitter-button" itemprop="sameAs" href="https://x.com/{{ _author.X }}" target="_blank">
+          <div class="icon">{%- include svg/icon/social/twitter-x.svg -%}</div>
+        </a>
+      </li>
+    {%- endif -%}
     {%- if _author.telegram -%}
       <li title="{{ __return | replace: '[NAME]', 'Telegram' }}">
         <a class="button button--circle telegram-button" itemprop="sameAs" href="https://t.me/{{ _author.telegram }}" target="_blank">
@@ -89,12 +64,5 @@
       </li>
     {%- endif -%}
 
-    {%- if _author.bluesky -%}
-      <li title="{{ __return | replace: '[NAME]', 'Bluesky' }}">
-        <a class="button button--circle bluesky-button" itemprop="sameAs" href="https://bsky.app/profile/{{ _author.bluesky }}" target="_blank">
-          <div class="icon">{%- include svg/icon/social/bluesky.svg -%}</div>
-        </a>
-      </li>
-    {%- endif -%}
   </ul>
 </div>

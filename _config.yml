@@ -34,10 +34,12 @@ timezone: Europe/Rome
 author:
   name: Niccolò Zanotti
   email: hello@niccolozanotti.com
-#  twitter: niccolozanotti
+  # Social media profiles
   github:  niccolozanotti
   linkedin: niccolo-zanotti
   bluesky: niccolozanotti.com
+  mastodon: niccolozanotti
+#  X: niccolozanotti
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
